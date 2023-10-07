@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sectionTitle {
+    @apply text-center text-xl md:text-2xl ;
+  }
+}
+
+html {
+  padding:0;
+  margin:0;
+  scroll-behavior: smooth;
+}
+
+body {
+  color:#eafbf9;
+}
+
+.body-bg {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
+  background: 
+        radial-gradient(ellipse at top, #112525 10%, transparent 80%),
+        radial-gradient(ellipse at left, #112525 20%, transparent 80%),
+        radial-gradient(ellipse at right, #112525 30%, transparent 70%),
+        radial-gradient(ellipse at bottom, #112525 20%, transparent 80%),  
+        radial-gradient(ellipse closest-side at 8% 100%, #08d2ff 95%, transparent 5%), 
+        radial-gradient(ellipse farthest-corner at 100% 0, #08d2ff 95%, transparent 5%),  
+        radial-gradient(ellipse at 100% 100%, #08d2ff 80%, transparent 20%), 
+        radial-gradient(ellipse farthest-corner  at 0 0, #08d2ff 30%, transparent 70%);     
+}
+
+
+.conocimientos__boxIconos {
+  background-color: #0b5c7e30;
+}
+.boxIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+.boxIconTs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 0;
+}
+
+.boxIconJs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 1rem 0.1rem 1rem;
+}
+.icono {
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+}
+
+.iconoJs {
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+}
+.iconoVsc {
+  width:5rem;
+  height: 5rem;
+  padding: 0.8rem;
+  background-color: white;
+}
+.iconoTs {
+  width: 5rem;
+  height: 5rem;
+  padding: 0;
+}
+.iconName {
+  color: black;
+  color:#dcf9f6;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  text-align: center;
+}
+.icono:hover, .iconoVsc:hover, .iconoJs:hover, .iconoTs:hover {
+  transform: scale(1.2);
+}
+
+
+/* .boxProyectos {
+
+} */
+.proyecto {
+  box-sizing: border-box;
+  position: relative;
+  /* margin-top: 2rem; */
+}
+.proyecto img{
+  box-sizing: border-box;
+  /* width: 90%; */
+  width: 100%;
+}
+
+.descripcionProyecto {
+  display: none;
+  position: absolute; top:0; left: 0; bottom: 0; right: 0rem;
+  background-color: rgba(0, 0, 0, 0.55);
+  box-sizing: border-box; 
+}
+.descripcionProyecto p {
+  text-align: center;
+}
+.descripcionProyecto a {
+  text-decoration: none;
+  color: white;
+}
+.proyecto:hover .descripcionProyecto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+}
+figcaption a {
+  font-size: 1.3rem;
+  background: rgba(56, 55, 55, 0.6);
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+/*  */
+.boxPdf {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:1rem;
+}
+
+.pdf {
+  width: 70%;
+  height: 65vw;
+}
+/* Footer*/
+.iconoSubir {
+  width:2em
+}
+
+
+
+/* Text animation  */
+
+h2 {
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 19ch;
+  margin-left: auto;
+  margin-right: auto;
+  animation: typing 1s steps(22), blink 1s infinite step-end alternate;
+  overflow:hidden;
+  }
+  
+  @keyFrames typing {
+    from { width: 0}
+  }
+  
+  @keyFrames blink {
+    50% { border-color: transparent}
+  }
+/* end animation   */
+

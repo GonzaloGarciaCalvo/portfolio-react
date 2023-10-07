@@ -4,7 +4,7 @@ import { LanguageContext } from './LanguageContext'
 import { useContext } from 'react'
 
 const NavBar = () => {
-  const language = useContext(LanguageContext)
+  const {language, handleLanguage} = useContext(LanguageContext)
   return (
     <div className="navbar bg-[#0b5c7e] pt-0 pb-0 h-14 min-h-12" id="subir">
       <div className="navbar-start ">
@@ -26,6 +26,12 @@ const NavBar = () => {
             <li><a href="#contacts" className="p-2" >Contacto</a></li>
           </div>
         </div>
+      </div>
+      <div className="navbar-end">
+        {/* <button onClick={handleLanguage}>cambiar idioma</button> */}
+        <p>es</p>
+        <input onClick={handleLanguage} type="checkbox" className="toggle toggle-accent mx-2" id="my-toggle" />
+        <p>eng</p>
       </div>
     </div>
   )

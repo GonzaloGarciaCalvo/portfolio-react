@@ -31,6 +31,15 @@ body {
         radial-gradient(ellipse at 100% 100%, #08d2ff 80%, transparent 20%), 
         radial-gradient(ellipse farthest-corner  at 0 0, #08d2ff 30%, transparent 70%);     
 }
+/* NavBar */
+.toggle {
+  border-color: white;
+  background-color: white;
+}
+.toggle-accent:checked, .toggle-accent[checked="true"], .toggle-accent[aria-checked="true"] {
+  border-color: white;
+  background-color: white;
+}
 
 
 .conocimientos__boxIconos {

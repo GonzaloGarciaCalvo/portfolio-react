@@ -8,10 +8,11 @@ export default function LanguageProvider ({children}) {
   const [language, setLanguage] = useState('es')
   const handleLanguage = () => {
     language === 'es'? setLanguage('eng') : setLanguage('es')
+    console.log("lang: ")
   }
   const contextValue = {
-    language:language,
-    handleLanguage:handleLanguage
+    language,
+    handleLanguage
   }
   return(
     <LanguageContext.Provider value={contextValue}>

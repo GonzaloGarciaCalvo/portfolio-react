@@ -16,26 +16,40 @@ import Contacts from './Contacts'
 import '../index.css'
 import Footer from './footer'
 import CustomModal from './CustomModal'
+import { useContext } from 'react'
+import { LanguageContext } from './LanguageContext'
+import { es } from './es'
+import { en } from './en'
 
 export default function Home() {
+
+  const {language} = useContext(LanguageContext)
+console.log("language: ", language)
   return (
 		<main className=" p-8 md:p-12">
 			<div className="flex flex-col w-full" >
         <img src="images/fotoavatar.jpeg" className='rounded-full w-24 block mx-auto my-6' alt="foto de Gonzalo" />
 				<h1 className="text-4xl md:text-5xl w-full text-center pb-4">Gonzalo Garcia Calvo</h1>
-				<h2 className="text-2xl md:text-3xl text-center">Desarrollador Frontend</h2>
+				{/* <h2 className="text-2xl md:text-3xl text-center">Desarrollador Frontend</h2> */}
+        <h2 className="text-2xl md:text-3xl text-center">{language === 'es'? es.specialty : en.specialty}</h2>
 				<section className=" ">
-					<h3 className="sectionTitle pt-9 pb-7 ">Sobre mi</h3>
-					<p className="text-lg px-0 md:px-24">
+					{/* <h3 className="sectionTitle pt-9 pb-7 ">Sobre mi</h3> */}
+          <h3 className="sectionTitle pt-9 pb-7 ">{language === 'es'? es.aboutMeTitle : en.aboutMeTitle}</h3>
+					{/* <p className="text-lg px-0 md:px-24">
 						Soy Desarrollador Frontend, me formé en Coderhouse donde realicé los
 						cursos de Desarrollo Web, Javascript, React js y React Native;
 						quedando en todos en el Top 10, lo cual me permitió realizar
 						proyectos freelance. Posteriormente realicé el curso de Back End en
 						la misma academia.
-					</p>
-				</section>
+					</p> */}
+          <p className="text-lg px-0 md:px-24">{language === 'es'? es.aboutMe : en.aboutMe}</p>
+          {/* <p className="text-lg px-0 md:px-24">Participé en dos proyectos de No Country, 
+            startup que brinda el marco para simular un proyecto real, con metodología scrum, actualmente estoy comenzando mi tercera participación.</p> */}
+				<p className="text-lg px-0 md:px-24">{language === 'es'? es.aboutMe2 : en.aboutMe2}</p>
+        </section>
 				<section className="w-full px-0 md:px-16 lg:px-28">
-          <h3 className=" text-xl md:text-2xl text-center pt-9 pb-8">Conocimientos</h3>
+          {/* <h3 className=" text-xl md:text-2xl text-center pt-9 pb-8">Conocimientos</h3> */}
+          <h3 className=" text-xl md:text-2xl text-center pt-9 pb-8">{language === 'es'? es.knowledge : en.knowledge}</h3>
           <div className="
             grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 
             gap-3 

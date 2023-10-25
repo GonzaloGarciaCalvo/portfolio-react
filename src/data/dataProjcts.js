@@ -1,17 +1,17 @@
-import plazaKoros from './assets/images/plazaKoros.jpg'
-import kireiJabones from './assets/images/kireiJabones.jpg'
-import pf_js from './assets/images/pf_js.jpg'
-import pf_react from './assets/images/pf_react.jpg'
-import edaMentorin from './assets/images/edaMentorin.jpg'
-import poacea from './assets/images/poacea.jpg'
-import baTailored from './assets/images/baTailored.jpg'
-import movieSearcher from './assets/images/movieSearcher.jpg'
-import legaltech from './assets/images/legaltech.jpg'
+import plazaKoros from '../assets/images/plazaKoros.jpg'
+import kireiJabones from '../assets/images/kireiJabones.jpg'
+import pf_js from '../assets/images/pf_js.jpg'
+import pf_react from '../assets/images/pf_react.jpg'
+import edaMentorin from '../assets/images/edaMentorin.jpg'
+import poacea from '../assets/images/poacea.jpg'
+import baTailored from '../assets/images/baTailored.jpg'
+import movieSearcher from '../assets/images/movieSearcher.jpg'
+import legaltech from '../assets/images/legaltech.jpg'
 
 export const esProjects = [
   { img:plazaKoros, 
-    alt:'link a proyecto Plaza Koros',
-    title:'Proyecto Final curso desarrollo web Coderhouse',
+    alt:'link al proyecto Plaza Koros',
+    title:'Proyecto Final Curso Desarrollo Web Coderhouse',
     url:'https://gonzalogarciacalvo.github.io/Proyecto_Final_DesarrolloWeb_Coderhouse/',
     id:1
   },
@@ -75,26 +75,26 @@ export const enProjects = [
     id:1
   },
   { img:kireiJabones, 
-    alt:'link a proyecto Kirei Jabones',
-    title:'Freelance Top10 Curso Desarrollo Web Coderhouse',
+    alt:'link to Kirei Jabones Project',
+    title:'Freelance Top10 Coderhouse Web Development course',
     url:'https://gonzalogarciacalvo.github.io/Proyecto_Final_DesarrolloWeb_Coderhouse/',
     id:2
   },
   { img:pf_js, 
-    alt:'link a proyecto final  curso js',
-    title:'Proyecto Final curso Javascript Coderhouse',
+    alt:'link to Coderhouse Final Project js course',
+    title:'Final Project Javascript Coderhouse Course',
     url:'https://gonzalogarciacalvo.github.io/Proyecto-Final-JavaScript/',
     id:3
   },
   { img:pf_react, 
-    alt:'link a proyecto final curso react',
-    title:'Proyecto Final curso React js Coderhouse',
+    alt:'link to Final Project React curse',
+    title:'Final Project React js Coderhouse course',
     url:'https://ornate-creponne-7f057e.netlify.app/',
     id:4
   },
   { img:edaMentorin, 
-    alt:'link a proyecto eda mentoring',
-    title:'Freelance Top 10 Curso Javascript Coderhouse',
+    alt:'link to Eda Mentoring project',
+    title:'Freelance Top 10 Coderhouse Javascript Course',
     url:'https://gonzalogarciacalvo.github.io/EDA-Mentoring/',
     id:5
   },

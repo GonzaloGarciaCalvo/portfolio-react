@@ -17,7 +17,7 @@ function App() {
           <NavBar />
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path="/cv" element={<MyCv />} />
+            <Route path='/cv' element={<MyCv/>} />
           </Routes>
           <Footer />
         </div>

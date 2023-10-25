@@ -7,6 +7,7 @@ import poacea from '../assets/images/poacea.jpg'
 import baTailored from '../assets/images/baTailored.jpg'
 import movieSearcher from '../assets/images/movieSearcher.jpg'
 import legaltech from '../assets/images/legaltech.jpg'
+import mediPro from '../assets/images/mediPro.jpg'
 
 export const esProjects = [
   { img:plazaKoros, 
@@ -64,7 +65,14 @@ export const esProjects = [
     url:'https://c12-29-ft-node-react.vercel.app/',
     repository:'https://github.com/No-Country/c12-29-ft-node-react/',
     id:9
-  }
+  },
+    { img:mediPro, 
+      alt:'link a proyecto medipro',
+      title:'Emulación proyecto real en No Country',
+      url:'https://magnificent-khapse-709c31.netlify.app/',
+      repository:'https://github.com/No-Country/s10-18-n-python-react',
+      id:10
+    }
 ]
 
 export const enProjects = [

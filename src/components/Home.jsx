@@ -11,10 +11,9 @@ import bootstrap from '../assets/images/bootstrap-logo.png'
 import sass from '../assets/images/sass_icon.png'
 import ts from '../assets/images/ts.svg'
 import next from '../assets/images/nextjs.svg'
-import Projects from './projects'
+import Projects from './Projects'
 import Contacts from './Contacts'
 import '../index.css'
-import CustomModal from './CustomModal'
 import { useContext } from 'react'
 import { LanguageContext } from './LanguageContext'
 import { es } from './es'
@@ -24,7 +23,7 @@ import NavBar from './NavBar'
 export default function Home() {
 
   const {language} = useContext(LanguageContext)
-//console.log("language en Home: ", language)
+
   return (
     <>
       <NavBar />

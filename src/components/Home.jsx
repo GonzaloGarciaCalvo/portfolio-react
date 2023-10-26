@@ -11,6 +11,7 @@ import bootstrap from '../assets/images/bootstrap-logo.png'
 import sass from '../assets/images/sass_icon.png'
 import ts from '../assets/images/ts.svg'
 import next from '../assets/images/nextjs.svg'
+import avatar from '../assets/images/fotoavatar.jpeg'
 import Projects from './Projects'
 import Contacts from './Contacts'
 import '../index.css'
@@ -18,18 +19,16 @@ import { useContext } from 'react'
 import { LanguageContext } from './LanguageContext'
 import { es } from './es'
 import { en } from './en'
-import NavBar from './NavBar'
 
 export default function Home() {
 
   const {language} = useContext(LanguageContext)
+  const cvUrl = language === 'es'? "CV-GonzaloGarciaCalvo2023.pdf" : "CV-GonzaloGarciaCalvo2023_eng.pdf"
 
   return (
-    <>
-      <NavBar />
       <main className=" p-8 md:p-12">
         <div className="flex flex-col w-full" >
-          <img src="images/fotoavatar.jpeg" className='rounded-full w-24 block mx-auto my-6' alt="foto de Gonzalo" />
+          <img src={avatar} className='rounded-full w-24 block mx-auto my-6' alt="foto de Gonzalo" />
           <h1 className="text-4xl md:text-5xl w-full text-center pb-4">Gonzalo Garcia Calvo</h1>
           <h2 className="text-2xl md:text-3xl text-center">{language === 'es'? es.specialty : en.specialty}</h2>
           <section className=" ">
@@ -127,8 +126,14 @@ export default function Home() {
           </section>
         </div>
         <Projects language={language} />
-        <Contacts id="misContactos" />
+        <div className="flex flex-row justify-center btnDescargar">
+        <a href={cvUrl} target="_blank" className="fs-2 text-decoration-none mt-3 mb-4 py-2 px-3 bg-black rounded-3xl">
+            <p className="text-center text-2xl  ">
+              {language === 'es'? 'Descargar CV': 'Download CV'}     
+            </p>
+        </a>
+      </div>
+        {/* <Contacts id="misContactos" /> */}
       </main>
-    </>
 	);
 }

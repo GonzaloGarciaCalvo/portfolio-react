@@ -9,9 +9,9 @@ const Contacts = () => {
   const {language} = useContext(LanguageContext)
   return (
         <section id="contacts" className=" flex flex-col justify-center pb-5 px-[15%] md:px-[25%]">
-          <h3 className="sectionTitle py-8" >
+          {/* <h3 className="sectionTitle py-8" >
             {language === 'es'? 'Contacto': 'Contact'}
-          </h3>
+          </h3> */}
           <div className="boxRedes  flex flex-row justify-around items-center">
               <a href="https://www.linkedin.com/in/gonzalo-garcia-calvo/" target="_blank">
                   <img src={linkedin} loading="lazy" className="iconoRedes" alt="vínculo a linkedin" />

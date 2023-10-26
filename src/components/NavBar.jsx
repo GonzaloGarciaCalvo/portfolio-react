@@ -6,6 +6,7 @@ import { useContext } from 'react'
 const NavBar = () => {
 
   const {language, handleLanguage} = useContext(LanguageContext)
+  console.log("path: ",window.location.pathname)
   return (
     <div className="navbar bg-[#0b5c7e] pt-0 pb-0 h-14 min-h-12" id="subir">
       <div className="navbar-start ">
@@ -28,11 +29,14 @@ const NavBar = () => {
           <div className="menu menu-sm flex flex-row px-2 py-0">
             <li><Link to="/" className="p-2" >Home</Link></li>
             <li><Link to="/cv" className="p-2">CV</Link></li>
-            <li>
-              <a href="#contacts" className="p-2" >
-                {language === 'es'? 'Contacto': 'Contact'}
-              </a>
-            </li>
+            {
+              window.location.pathname !== '/cv' &&
+              <li>
+                <a href="#contacts" className="p-2" >
+                  {language === 'es'? 'Contacto': 'Contact'}
+                </a>
+              </li>
+            }
           </div>
         </div>
       </div>

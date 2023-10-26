@@ -14,7 +14,6 @@ function App() {
     <LanguageProvider>
       <BrowserRouter>
         <div className="App body-bg" id="app">
-          <NavBar />
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/cv' element={<MyCv/>} />

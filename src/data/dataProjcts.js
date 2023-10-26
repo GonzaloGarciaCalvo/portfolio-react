@@ -108,28 +108,35 @@ export const enProjects = [
   },
   ,
   { img:poacea, 
-    alt:'link a proyecto Poacea',
-    title:'Freelance Top 10 Curso React js Coderhouse',
+    alt:'link to Poacea project',
+    title:'Freelance Top 10 React js Coderhouse Course',
     url:'https://poacea.vercel.app/',
     id:6
   },
   { img:baTailored, 
-    alt:'link a proyecto buenos aires tailores',
+    alt:'link to Buenos Aires Tailores project',
     title:'Freelance Buenos Aires Tailored',
     url:'https://batailored.com/',
     id:7
   },
   { img:movieSearcher, 
-    alt:'link a proyecto moviesearcher',
-    title:'Practicando con React, Redux Toolkit, Typescript, con API TMDB',
+    alt:'link to moviesearcher project',
+    title:'trainning with React, Redux Toolkit, Typescript, and API TMDB',
     url:'https://ggc-movies-searcher-app.vercel.app/',
     id:8
   },
   { img:legaltech, 
-    alt:'link a proyecto legaltech',
-    title:'Emulación proyecto real en Nocountry',
+    alt:'link to legaltech project',
+    title:'real project emulation in No Country',
     url:'https://c12-29-ft-node-react.vercel.app/',
     repository:'https://github.com/No-Country/c12-29-ft-node-react/',
     id:9
+  },
+  { img:mediPro, 
+    alt:'link to medipro project',
+    title:'real project emulation in No Country',
+    url:'https://magnificent-khapse-709c31.netlify.app/',
+    repository:'https://github.com/No-Country/s10-18-n-python-react',
+    id:10
   }
 ]

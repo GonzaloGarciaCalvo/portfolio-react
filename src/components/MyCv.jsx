@@ -1,14 +1,17 @@
 import { useContext } from 'react'
 import { LanguageContext } from './LanguageContext'
+import NavBar from './NavBar'
 
 const MyCv = () => {
   const {language} = useContext(LanguageContext)
   return (
+  <>
+    <NavBar />
     <div className='min-h-[50em]'>
       <h1 className="pt-8 pb-5 text-center text-2xl">
         {language === 'es'? 'Mi CV': 'My CV'}
       </h1>
-      <div className="boxPdf">
+      <div className="boxPdf min-h-[50em]">
       {language === 'es'? 
         <object className="pdf" data="CV-GonzaloGarciaCalvo2023.pdf"></object>
         : 
@@ -24,6 +27,7 @@ const MyCv = () => {
         </a>
       </div>
     </div>
+  </>
   )
 }
 export default MyCv

@@ -12,8 +12,9 @@ const ProjectItem = ({item}) => {
         <a href={item?.url} target="_blank">
           {language === 'es'? 'ver': 'watch'}
         </a>
-        { item?.repository? <a href="https://github.com/No-Country/c12-29-ft-node-react/" target="_blank">
-          {language === 'es'? 'ver Repositorio': 'watch repository'}
+        { item?.repository? 
+          <a href="https://github.com/No-Country/c12-29-ft-node-react/" target="_blank" className='mt-1'>
+            {language === 'es'? 'ver Repositorio': 'watch repository'}
           </a>
           :
           null 

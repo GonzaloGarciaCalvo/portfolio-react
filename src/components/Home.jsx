@@ -12,6 +12,7 @@ import sass from '../assets/images/sass_icon.png'
 import ts from '../assets/images/ts.svg'
 import next from '../assets/images/nextjs.svg'
 import avatar from '../assets/images/fotoavatar.jpeg'
+import certificate from '../assets/images/ncCertificate.jpg'
 import Projects from './Projects'
 import Contacts from './Contacts'
 import '../index.css'
@@ -127,13 +128,17 @@ export default function Home() {
         </div>
         <Projects language={language} />
         <div className="flex flex-row justify-center btnDescargar">
-        <a href={cvUrl} target="_blank" className="fs-2 text-decoration-none mt-3 mb-4 py-2 px-3 bg-black rounded-3xl">
+        <a href={cvUrl} target="_blank" className="fs-2 text-decoration-none mt-5 mb-4 py-2 px-3 bg-black rounded-3xl">
             <p className="text-center text-2xl  ">
               {language === 'es'? 'Descargar CV': 'Download CV'}     
             </p>
         </a>
       </div>
-        {/* <Contacts id="misContactos" /> */}
+      <section  className="flex flex-col justify-center items-center btnDescargar">
+        <h3 className="text-xl md:text-2xl text-center pt-9 pb-8">{language === 'es'? es.certificate : en.certificate}</h3>
+        <img src={certificate} className="w-1/2 px-2" alt="" />
+      </section>
+      
       </main>
 	);
 }

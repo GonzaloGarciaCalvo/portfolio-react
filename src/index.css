@@ -98,18 +98,12 @@ body {
   transform: scale(1.2);
 }
 
-
-/* .boxProyectos {
-
-} */
 .proyecto {
   box-sizing: border-box;
   position: relative;
-  /* margin-top: 2rem; */
 }
 .proyecto img{
   box-sizing: border-box;
-  /* width: 90%; */
   width: 100%;
 }
 
@@ -160,10 +154,7 @@ figcaption a {
   width:2em
 }
 
-
-
 /* Text animation  */
-
 h2 {
   display: block;
   white-space: nowrap;
@@ -184,4 +175,26 @@ h2 {
   }
 /* end animation   */
 
-@media
+/* scroll animation */
+@keyframes show {
+	from {
+		opacity: 0.1;
+		scale: 45%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+.proyecto {
+	view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 30% cover 40%;
+	animation-fill-mode: both;
+}

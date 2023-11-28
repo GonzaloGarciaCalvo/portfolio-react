@@ -19,7 +19,7 @@ export const esProjects = [
   { img:kireiJabones, 
     alt:'link a proyecto Kirei Jabones',
     title:'Freelance Top10 Curso Desarrollo Web Coderhouse',
-    url:'https://gonzalogarciacalvo.github.io/Proyecto_Final_DesarrolloWeb_Coderhouse/',
+    url:'https://gonzalogarciacalvo.github.io/KireiJabones/',
     id:2
   },
   { img:pf_js, 

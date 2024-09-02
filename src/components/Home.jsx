@@ -13,6 +13,9 @@ import ts from '../assets/images/ts.svg'
 import next from '../assets/images/nextjs.svg'
 import avatar from '../assets/images/fotoavatar.jpeg'
 import certificate from '../assets/images/ncCertificate.jpg'
+import sql from '../assets/images/server-sql.svg'
+import tailwind from '../assets/images/tailwind.svg'
+import node from '../assets/images/node.svg'
 import Projects from './Projects'
 import Contacts from './Contacts'
 import '../index.css'
@@ -20,12 +23,15 @@ import { useContext } from 'react'
 import { LanguageContext } from './LanguageContext'
 import { es } from './es'
 import { en } from './en'
+import SkillItem from './SkillItem'
+import { itemsData } from './itemsData'
 
 export default function Home() {
 
   const {language} = useContext(LanguageContext)
-  const cvUrl = language === 'es'? "CV-GonzaloGarciaCalvo2023.pdf" : "CV-GonzaloGarciaCalvo2023_eng.pdf"
+  const cvUrl = language === 'es'? "CV-GonzaloGarciaCalvo2024.pdf" : "CV-GonzaloGarciaCalvo2024_ENG.pdf"
 
+    
   return (
       <main className=" p-8 md:p-12">
         <div className="flex flex-col w-full" >
@@ -46,83 +52,22 @@ export default function Home() {
               conocimientos__boxIconos
               " 
             >
-              <article className=" boxIcon">
-                <img className="icono" width={80} src={html5} alt="logo html" />
-                <h4 className="iconName">html</h4>
-              </article>
-              <article className=" boxIcon">
-                <img className="icono" width={80}  src={css3} alt="logo css" />
-                <h4 className="iconName">css</h4>
-              </article>
-              <article className=" boxIcon">
-                <img className="iconoJs" width={80} src={js} alt="icono js" />
-                <h4 className="iconName">javascript</h4>
-              </article>
-              <article className=" boxIcon">
-                <img className="icono" width={80} src={react} alt="icono react" />
-                <h4 className="iconName">react</h4>
-              </article>
-              <article className=" boxIcon">
-                <img className="icono" width={80} src={react} alt="icono react native" />
-                <h4 className="iconName">react native</h4>
-              </article>
-              <article className=" boxIcon">
-                <img className="icono" width={80} src={redux} alt="icono redux" />
-                <h4 className="iconName">redux</h4>
-              </article>
-              <article className=" boxIcon">
-                <img className="icono" width={80} src={git} alt="icono git" />
-                <h4 className="iconName">git</h4>
-              </article>
-              <article className=" boxIcon">
-                <img className="icono" width={80} src={github} alt="icono github" />
-                <h4 className="iconName">github</h4>
-              </article>
-              <article className=" boxIcon">
-                <img
-                  className=" iconoVsc"
-                  width={80}
-                  src={vsc}
-                  alt="icono visual studio code"
-                />
-                <h4 className="iconName">vsc</h4>
-              </article>
-              <article  className=" boxIcon">
-                <img
-                  className=" icono"
-                  width={80}
-                  src={bootstrap}
-                  alt="icono bootstrap"
-                />
-                <h4 className="iconName">Bootstrap</h4>
-              </article>
-              <article  className=" boxIcon">
-                <img
-                  className=" icono"
-                  width={80}
-                  src={sass}
-                  alt="icono sass"
-                />
-                <h4 className="iconName">Sass</h4>
-              </article>
-              <article  className=" boxIcon">
-                <img
-                  className=" iconoTs"
-                  width={80}
-                  src={ts}
-                  alt="icono typescript"
-                />
-                <h4 className="iconName">TS</h4>
-              </article>
-              <article  className=" boxIcon">
-                <img
-                  className=" icono p-1"
-                  width={80}
-                  src={next}
-                  alt="icono typescript"
-                />
-                <h4 className="iconName">NEXT js</h4>
-              </article>
+              <SkillItem  itemData={itemsData.html} image={html5}/>
+              <SkillItem  itemData={itemsData.css} image={css3}/>
+              <SkillItem  itemData={itemsData.js} image={js}/>
+              <SkillItem  itemData={itemsData.react} image={react}/>
+              <SkillItem  itemData={itemsData.node} image={node}/>
+              <SkillItem  itemData={itemsData.reactNative} image={react}/>
+              <SkillItem  itemData={itemsData.redux} image={redux}/>
+              <SkillItem  itemData={itemsData.git} image={git}/>
+              <SkillItem  itemData={itemsData.github} image={github}/>
+              <SkillItem  itemData={itemsData.vsc} image={vsc}/>
+              <SkillItem  itemData={itemsData.bootstrap} image={bootstrap}/>
+              <SkillItem  itemData={itemsData.sass} image={sass}/>
+              <SkillItem  itemData={itemsData.ts} image={ts}/>
+              <SkillItem  itemData={itemsData.next} image={next}/>
+              <SkillItem  itemData={itemsData.sql} image={sql}/>
+              <SkillItem itemData={itemsData.tailwind} image={tailwind} />
             </div>
           </section>
         </div>

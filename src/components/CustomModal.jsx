@@ -19,11 +19,11 @@ function CustomModal() {
         </Modal.Header> */}
         <Modal.Body className='p-0'>
           <div className="boxPdf">
-            <object className="pdf" data="cv-GonzaloGarciaCalvo-2022_2.pdf"></object>
+            <object className="pdf" data="cv-GonzaloGarciaCalvo2024.pdf"></object>
           </div>
         </Modal.Body>
         <div className="d-flex flex-row justify-content-center btnDescargar">
-            <a href="cv-GonzaloGarciaCalvo-2022_2.pdf" target="_blank"  className=" text-decoration-none">
+            <a href="cv-GonzaloGarciaCalvo2024.pdf" target="_blank"  className=" text-decoration-none">
                 <p className="text-center my-2 fs-1 fw-bold">Descargar CV</p>
             </a>
         </div>

@@ -17,13 +17,13 @@ const Footer = () => {
               } &#169;
             </p>
             <div id='contacts' className="boxRedes  flex flex-row justify-center items-center gap-5 mg:gap-10">
-              <a href="https://www.linkedin.com/in/gonzalo-garcia-calvo/" target="_blank">
+              <a href="https://www.linkedin.com/in/gonzalo-garcia-calvo/" target="_blank" rel="noopener">
                   <img src={linkedin} loading="lazy" className="iconoRedes" alt="vínculo a linkedin" />
               </a>
-              <a href="https://github.com/GonzaloGarciaCalvo" target="_blank">
+              <a href="https://github.com/GonzaloGarciaCalvo" target="_blank" rel="noopener">
                   <img src={github} loading="lazy" className="iconoRedes" alt="vinculo a mi github" />
               </a>
-              <a href="mailto:garciacalvog@hotmail.com">
+              <a href="mailto:garciacalvog@hotmail.com" target="_blank" rel="noopener">
                   <img src={email} loading="lazy" alt="mail to" className=" iconoRedes" />
               </a>
           </div> 

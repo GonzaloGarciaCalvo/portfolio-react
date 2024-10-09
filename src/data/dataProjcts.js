@@ -8,6 +8,7 @@ import baTailored from '../assets/images/baTailored.jpg'
 import movieSearcher from '../assets/images/movieSearcher.jpg'
 import legaltech from '../assets/images/legaltech.jpg'
 import mediPro from '../assets/images/mediPro.jpg'
+import countriesInfoApp from '../assets/images/countriesInfoApp.jpg'
 
 export const esProjects = [
   { img:plazaKoros, 
@@ -72,6 +73,13 @@ export const esProjects = [
       url:'https://magnificent-khapse-709c31.netlify.app/',
       repository:'https://github.com/No-Country/s10-18-n-python-react',
       id:10
+    },
+    { img:countriesInfoApp, 
+      alt:'link al proyecto countries info app',
+      title:'Challenge Fullstack, Next js and Node',
+      url:'https://develops-today-challenge.vercel.app/',
+      repository:'https://github.com/GonzaloGarciaCalvo/DevelopsToday-Challenge',
+      id:11
     }
 ]
 
@@ -138,5 +146,12 @@ export const enProjects = [
     url:'https://magnificent-khapse-709c31.netlify.app/',
     repository:'https://github.com/No-Country/s10-18-n-python-react',
     id:10
+  },
+  { img:countriesInfoApp, 
+    alt:'link to countries info app project',
+    title:'Fullstack Challenge, Next js and Node',
+    url:'https://develops-today-challenge.vercel.app/',
+    repository:'https://github.com/GonzaloGarciaCalvo/DevelopsToday-Challenge',
+    id:11
   }
 ]

@@ -1,6 +1,5 @@
 export default function SkillItem({itemData, image}) {
 
-  console.log("image: ", image)
   return (
 		<article className={itemData.article.className}>
 			<img 

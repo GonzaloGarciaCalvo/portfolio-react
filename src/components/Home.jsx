@@ -73,7 +73,7 @@ export default function Home() {
         </div>
         <Projects language={language} />
         <div className="flex flex-row justify-center btnDescargar">
-        <a href={cvUrl} target="_blank" className="fs-2 text-decoration-none mt-5 mb-4 py-2 px-3 bg-black rounded-3xl">
+        <a href={cvUrl} target="_blank" rel="noopener" className="fs-2 text-decoration-none mt-5 mb-4 py-2 px-3 bg-black rounded-3xl">
             <p className="text-center text-2xl  ">
               {language === 'es'? 'Descargar CV': 'Download CV'}     
             </p>

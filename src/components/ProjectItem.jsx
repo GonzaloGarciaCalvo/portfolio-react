@@ -9,11 +9,11 @@ const ProjectItem = ({item}) => {
       <img src={item?.img} alt={item?.alt} loading="lazy" />
       <figcaption className="descripcionProyecto">
         <p>{item?.title}</p>
-        <a href={item?.url} target="_blank">
+        <a href={item?.url} target="_blank" rel="noopener">
           {language === 'es'? 'ver': 'watch'}
         </a>
         { item?.repository? 
-          <a href="https://github.com/No-Country/c12-29-ft-node-react/" target="_blank" className='mt-1'>
+          <a href={item?.repository} target="_blank" rel="noopener" className='mt-1'>
             {language === 'es'? 'ver Repositorio': 'watch repository'}
           </a>
           :

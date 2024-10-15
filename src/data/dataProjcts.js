@@ -6,7 +6,7 @@ import edaMentorin from '../assets/images/edaMentorin.webp'
 import poacea from '../assets/images/poacea.jpg'
 import baTailored from '../assets/images/baTailored.webp'
 import movieSearcher from '../assets/images/movieSearcher.webp'
-import legaltech from '../assets/images/legaltech.webp'
+import legaltech from '../assets/images/legalTech.webp'
 import mediPro from '../assets/images/mediPro.webp'
 import countriesInfoApp from '../assets/images/countriesInfoApp.webp'
 

@@ -21,7 +21,7 @@ body {
 .body-bg {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 100%;
-  background: 
+  /* background: 
         radial-gradient(ellipse at top, #112525 10%, transparent 80%),
         radial-gradient(ellipse at left, #112525 20%, transparent 80%),
         radial-gradient(ellipse at right, #112525 30%, transparent 70%),
@@ -29,8 +29,18 @@ body {
         radial-gradient(ellipse closest-side at 8% 100%, #08d2ff 95%, transparent 5%), 
         radial-gradient(ellipse farthest-corner at 100% 0, #08d2ff 95%, transparent 5%),  
         radial-gradient(ellipse at 100% 100%, #08d2ff 80%, transparent 20%), 
-        radial-gradient(ellipse farthest-corner  at 0 0, #08d2ff 30%, transparent 70%);     
+        radial-gradient(ellipse farthest-corner  at 0 0, #08d2ff 30%, transparent 70%);    */
+  background: 
+    radial-gradient(ellipse at top, #112525 10%, transparent 80%),
+    radial-gradient(ellipse at left, #112525 20%, transparent 80%),
+    radial-gradient(ellipse at right, #112525 30%, transparent 70%),
+    radial-gradient(ellipse at bottom, #112525 20%, transparent 80%),  
+    radial-gradient(ellipse closest-side at 8% 100%, #07a6c9 75%, transparent 25%), 
+    radial-gradient(ellipse farthest-corner at 100% 0, #07a6c9 75%,transparent 25%), 
+    radial-gradient(ellipse at 100% 100%, #07a6c9 75%, transparent 25%), 
+    radial-gradient(ellipse farthest-corner  at 0 0, #07a6c9 20%, transparent 80%);   
 }
+
 /* NavBar */
 .toggle {
   border-color: white;

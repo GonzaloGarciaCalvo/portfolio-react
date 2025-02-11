@@ -57,7 +57,7 @@ export const esProjects = [
   { img:movieSearcher, 
     alt:'link a proyecto moviesearcher',
     title:'Practicando con React, Redux Toolkit, Typescript, con API TMDB',
-    url:'https://ggc-movies-searcher-app.vercel.app/',
+    url:'https://movies-searcher-app.vercel.app/',
     id:8
   },
   { img:legaltech, 

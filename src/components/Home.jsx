@@ -37,7 +37,7 @@ export default function Home() {
           >
             {
               itemsData.map( 
-                item => <SkillItem itemData={item} key={item.id} image={item.imgSource} />
+                (item,idx) => <SkillItem itemData={item} key={idx} image={item.imgSource}  />
               )
             }
           </div>

@@ -1,7 +1,7 @@
 export default function SkillItem({itemData, image}) {
 
   return (
-		<article className={itemData.article.className}>
+		<article className={itemData.article.className} id={itemData.name}>
 			<img 
         className={itemData.image.className} 
         src={image} 

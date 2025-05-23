@@ -2,13 +2,14 @@ import plazaKoros from '../assets/images/plazaKoros.webp'
 import kireiJabones from '../assets/images/kireiJabones.webp'
 import pf_js from '../assets/images/pf_js.webp'
 import pf_react from '../assets/images/pf_react.webp'
-import edaMentorin from '../assets/images/edaMentorin.webp'
+import edaMentoring from '../assets/images/edaMentorin.webp'
 import poacea from '../assets/images/poacea.jpg'
 import baTailored from '../assets/images/baTailored.webp'
 import movieSearcher from '../assets/images/movieSearcher.webp'
 import legaltech from '../assets/images/legalTech.webp'
 import mediPro from '../assets/images/mediPro.webp'
 import countriesInfoApp from '../assets/images/countriesInfoApp.webp'
+import khimerastudio from '../assets/images/khimerastudio.jpg'
 
 export const esProjects = [
   { img:plazaKoros, 
@@ -35,7 +36,7 @@ export const esProjects = [
     url:'https://ornate-creponne-7f057e.netlify.app/',
     id:4
   },
-  { img:edaMentorin, 
+  { img:edaMentoring, 
     alt:'link a proyecto eda mentoring',
     title:'Freelance Top 10 Curso Javascript Coderhouse',
     url:'https://gonzalogarciacalvo.github.io/EDA-Mentoring/',
@@ -80,7 +81,14 @@ export const esProjects = [
       url:'https://develops-today-challenge.vercel.app/',
       repository:'https://github.com/GonzaloGarciaCalvo/DevelopsToday-Challenge',
       id:11
-    }
+    },
+    { img:khimerastudio, 
+    alt:'link to Khimera Studio site',
+    title:'Página web de Khimera Studio, Astro y vanilla js',
+    url:'https://khimerastudio.com/',
+    repository:'https://github.com/GonzaloGarciaCalvo/KhimeraStudio',
+    id:12
+  }
 ]
 
 export const enProjects = [
@@ -108,7 +116,7 @@ export const enProjects = [
     url:'https://ornate-creponne-7f057e.netlify.app/',
     id:4
   },
-  { img:edaMentorin, 
+  { img:edaMentoring, 
     alt:'link to Eda Mentoring project',
     title:'Freelance Top 10 Coderhouse Javascript Course',
     url:'https://gonzalogarciacalvo.github.io/EDA-Mentoring/',
@@ -153,5 +161,12 @@ export const enProjects = [
     url:'https://develops-today-challenge.vercel.app/',
     repository:'https://github.com/GonzaloGarciaCalvo/DevelopsToday-Challenge',
     id:11
+  },
+  { img:khimerastudio, 
+    alt:'link to Khimera Studio site',
+    title:'Khimera Studio landing page, Astro and vanilla js',
+    url:'https://khimerastudio.com/',
+    repository:'https://github.com/GonzaloGarciaCalvo/KhimeraStudio',
+    id:12
   }
 ]

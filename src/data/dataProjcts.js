@@ -64,14 +64,16 @@ export const esProjects = [
   { img:legaltech, 
     alt:'link a proyecto legaltech',
     title:'Emulación proyecto real en Nocountry',
-    url:'https://c12-29-ft-node-react.vercel.app/',
+    /* url:'https://c12-29-ft-node-react.vercel.app/', */
+    url:null,
     repository:'https://github.com/No-Country/c12-29-ft-node-react/',
     id:9
   },
     { img:mediPro, 
       alt:'link a proyecto medipro',
       title:'Emulación proyecto real en No Country',
-      url:'https://magnificent-khapse-709c31.netlify.app/',
+      /* url:'https://magnificent-khapse-709c31.netlify.app/', */
+      url:null,
       repository:'https://github.com/No-Country/s10-18-n-python-react',
       id:10
     },
@@ -144,14 +146,15 @@ export const enProjects = [
   { img:legaltech, 
     alt:'link to legaltech project',
     title:'real project emulation in No Country',
-    url:'https://c12-29-ft-node-react.vercel.app/',
+    url:'sin link',
     repository:'https://github.com/No-Country/c12-29-ft-node-react/',
     id:9
   },
   { img:mediPro, 
     alt:'link to medipro project',
     title:'real project emulation in No Country',
-    url:'https://magnificent-khapse-709c31.netlify.app/',
+    /* url:'https://magnificent-khapse-709c31.netlify.app/', */
+    url:null,
     repository:'https://github.com/No-Country/s10-18-n-python-react',
     id:10
   },
@@ -170,3 +173,5 @@ export const enProjects = [
     id:12
   }
 ]
+
+/* url:'https://c12-29-ft-node-react.vercel.app/', */

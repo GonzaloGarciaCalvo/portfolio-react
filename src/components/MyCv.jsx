@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import { LanguageContext } from './LanguageContext'
-
+/* NO SE USA */
 const MyCv = () => {
   const {language} = useContext(LanguageContext)
   return (
@@ -10,9 +10,9 @@ const MyCv = () => {
       </h1>
       <div className="boxPdf min-h-[50em]">
       {language === 'es'? 
-        <object className=" w-[100%] sm:w-[70%] h-[50em] lg:h-[65vw] }" data="CV-GonzaloGarciaCalvo2023.pdf"></object>
+        <object className=" w-[100%] sm:w-[70%] h-[50em] lg:h-[65vw] }" data="cv-GonzaloGarciaCalvo-2025-esp"></object>
         : 
-        <object className="w-[70%] h-[80%] lg:h-[65vw]" data="CV-GonzaloGarciaCalvo2023_eng.pdf"></object>
+        <object className="w-[70%] h-[80%] lg:h-[65vw]" data="cv-GonzaloGarciaCalvo-2025-en"></object>
       }
       </div>
       <div className="flex flex-row justify-center btnDescargar">

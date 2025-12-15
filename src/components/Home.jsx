@@ -12,7 +12,7 @@ import { itemsData } from './itemsData'
 export default function Home() {
 
   const {language} = useContext(LanguageContext)
-  const cvUrl = language === 'es'? "CV-GonzaloGarciaCalvo2024.pdf" : "GonzaloGarciaCalvo2024eng.pdf"
+  const cvUrl = language === 'es'? "cv-GonzaloGarciaCalvo-2025-esp.pdf" : "cv-GonzaloGarciaCalvo-2025-en.pdf"
 
     
   return (

@@ -10,6 +10,7 @@ import legaltech from '../assets/images/legalTech.webp'
 import mediPro from '../assets/images/mediPro.webp'
 import countriesInfoApp from '../assets/images/countriesInfoApp.webp'
 import khimerastudio from '../assets/images/khimerastudio.jpg'
+import consorcioABC from '../assets/images/consorcioABC.jpg'
 
 export const esProjects = [
   { img:plazaKoros, 
@@ -85,11 +86,18 @@ export const esProjects = [
       id:11
     },
     { img:khimerastudio, 
-    alt:'link to Khimera Studio site',
+    alt:'link a la p\'agina web de Khimera Studio',
     title:'Página web de Khimera Studio, Astro y vanilla js',
     url:'https://khimerastudio.com/',
     repository:'https://github.com/GonzaloGarciaCalvo/KhimeraStudio',
     id:12
+  },
+  { img:consorcioABC, 
+    alt:'link a sitio del Consorcio de Exportadores de Carnes Argentinas ABC',
+    title:'Página web Consorcio de Exportadores de Carnes Argentinas ABC, Astro y vanilla js',
+    url:'https://abconsorcio.com.ar/',
+    repository:'https://github.com/GonzaloGarciaCalvo/consorcioABC',
+    id:13
   }
 ]
 

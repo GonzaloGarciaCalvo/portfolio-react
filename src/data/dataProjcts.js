@@ -34,7 +34,7 @@ export const esProjects = [
   { img:pf_react, 
     alt:'link a proyecto final curso react',
     title:'Proyecto Final curso React js Coderhouse',
-    url:'https://ornate-creponne-7f057e.netlify.app/',
+    url:'https://gonzalogarciacalvo-ecommerce.vercel.app/',
     id:4
   },
   { img:edaMentoring, 
@@ -123,7 +123,7 @@ export const enProjects = [
   { img:pf_react, 
     alt:'link to Final Project React curse',
     title:'Final Project React js Coderhouse course',
-    url:'https://ornate-creponne-7f057e.netlify.app/',
+    url:'https://gonzalogarciacalvo-ecommerce.vercel.app/',
     id:4
   },
   { img:edaMentoring, 
@@ -181,5 +181,3 @@ export const enProjects = [
     id:12
   }
 ]
-
-/* url:'https://c12-29-ft-node-react.vercel.app/', */

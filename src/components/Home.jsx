@@ -1,6 +1,6 @@
 import avatar from '../assets/images/fotoavatar.jpeg'
 import certificate from '../assets/images/ncCertificate.jpg'
-import Projects from './Projects'
+import Projects from './projects'
 import '../index.css'
 import { useContext } from 'react'
 import { LanguageContext } from './LanguageContext'

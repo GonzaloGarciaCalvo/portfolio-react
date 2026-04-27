@@ -12,7 +12,7 @@ import { itemsData } from './itemsData'
 export default function Home() {
 
   const {language} = useContext(LanguageContext)
-  const cvUrl = language === 'es'? "cv-GonzaloGarciaCalvo-2025-esp.pdf" : "cv-GonzaloGarciaCalvo-2025-en.pdf"
+  const cvUrl = language === 'es' ? "GonzaloGarciaCalvo-esp-2026.pdf" : "GonzaloGarciaCalvo-en-2026.pdf"
 
     
   return (
@@ -53,7 +53,7 @@ export default function Home() {
       </div>
       <section  className="flex flex-col justify-center items-center btnDescargar">
         <h3 className="text-xl md:text-2xl text-center pt-9 pb-8">{language === 'es'? es.certificate : en.certificate}</h3>
-        <img src={certificate} className="w-1/2 px-2" alt="" />
+        <img src={certificate} className="w-1/2 px-2" alt="certificado de No Country" />
       </section>
     </main>
 	);

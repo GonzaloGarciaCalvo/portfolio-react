@@ -11,6 +11,7 @@ import mediPro from '../assets/images/mediPro.webp'
 import countriesInfoApp from '../assets/images/countriesInfoApp.webp'
 import khimerastudio from '../assets/images/khimerastudio.jpg'
 import consorcioABC from '../assets/images/consorcioABC.jpg'
+import dataDashboard from '../assets/images/data-dashboard.webp'
 
 export const esProjects = [
   { img:plazaKoros, 
@@ -98,6 +99,13 @@ export const esProjects = [
     url:'https://abconsorcio.com.ar/',
     repository:'https://github.com/GonzaloGarciaCalvo/consorcioABC',
     id:13
+  },
+  { img:dataDashboard, 
+    alt:'link a sitio Data Dashboard',
+    title:'Data Dashboard, Next js, Recharts,Papaparse, permite subir archivos csv y calcular kpis y mostrar gráficos',
+    url:'https://data-dashboard-ggc-demo.vercel.app/',
+    repository:'https://github.com/GonzaloGarciaCalvo/data-dashboard',
+    id:14
   }
 ]
 
@@ -179,5 +187,19 @@ export const enProjects = [
     url:'https://khimerastudio.com/',
     repository:'https://github.com/GonzaloGarciaCalvo/KhimeraStudio',
     id:12
+  },
+  { img:consorcioABC, 
+    alt:'link to Consorcio de Exportadores de Carnes Argentinas ABC site',
+    title:'Consorcio de Exportadores de Carnes Argentinas ABC landing page, Astro and vanilla js',
+    url:'https://abconsorcio.com.ar/',
+    repository:'https://github.com/GonzaloGarciaCalvo/consorcioABC',
+    id:13
+  },
+  { img:dataDashboard, 
+    alt:'link to Data Dashboard site',
+    title:'Data Dashboard, Next js, Recharts,Papaparse, allows to upload csv files and calculate kpis and show charts',
+    url:'https://data-dashboard-ggc-demo.vercel.app/',
+    repository:'https://github.com/GonzaloGarciaCalvo/data-dashboard',
+    id:14
   }
 ]

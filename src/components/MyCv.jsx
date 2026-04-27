@@ -9,19 +9,19 @@ const MyCv = () => {
         {language === 'es'? 'Mi CV': 'My CV'}
       </h1>
       <div className="boxPdf min-h-[50em]">
-      {language === 'es'? 
-        <object className=" w-[100%] sm:w-[70%] h-[50em] lg:h-[65vw] }" data="cv-GonzaloGarciaCalvo-2025-esp"></object>
+      {/* {language === 'es'? 
+        <object className=" w-[100%] sm:w-[70%] h-[50em] lg:h-[65vw] }" data="cv-GonzaloGarciaCalvo_esp-2026"></object>
         : 
-        <object className="w-[70%] h-[80%] lg:h-[65vw]" data="cv-GonzaloGarciaCalvo-2025-en"></object>
-      }
+        <object className="w-[70%] h-[80%] lg:h-[65vw]" data="cv-GonzaloGarciaCalvo-2026-en"></object>
+      } */}
       </div>
       <div className="flex flex-row justify-center btnDescargar">
-        <a href="CV-GonzaloGarciaCalvo2023.pdf" target="_blank"  className="fs-2 text-decoration-none">
+        {/* <a href="CV-GonzaloGarciaCalvo2023.pdf" target="_blank"  className="fs-2 text-decoration-none">
             <p className="text-center text-2xl mt-3 mb-4">
               {language === 'es'? 'Descargar CV': 'Download CV'}
               
             </p>
-        </a>
+        </a> */}
       </div>
     </div>
   )
